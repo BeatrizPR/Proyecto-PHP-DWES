@@ -1,0 +1,159 @@
+@font-face {
+	font-family: redactedFont;
+	src:url('fuentes/redacted.script-light.ttf');
+}	
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	margin: 10px !important;
+}
+
+header, footer { 
+	height:50px;
+}
+.jubotron{
+	margin-bottom:0% !important;
+}
+/* NAV  */
+nav.navbar{
+	background-color: #79c99e !important;
+	color: #394032 !important;
+	margin-bottom:0% !important;
+}
+
+button:focus {
+    outline: 0;
+}
+
+/* ANCHURA LOGIN  a la DERECHA */
+.navbar .dropdown-menu .form-control {
+    width: 200px;
+
+}
+.navbar .dropdown button{
+	background-color: #79c99e !important;
+} 
+/* estilo botones de la derecha del nav cuando  :hover*/
+.navbar .dropdown:hover button{
+	background-color: #cfee9e !important;
+} 
+nav:hover li button{
+	background-color: #cfee9e !important;
+}
+.navbar .nav-item .nav-link:hover{
+	color: #cfee9e !important;
+}
+/*BOTONES VERDES */
+.btn{
+	background-color:  #79c99e;
+	color:#587b7f !important;
+}
+
+.titulo{
+	color: #79c99e;
+}
+
+/* Para los iconos */
+span.icon {
+  font-family: FontAwesome;
+} 
+
+#centerMain{
+	margin-top:-5%;
+}
+main {
+	padding:10px;
+	position: relative;
+
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input { caret-color: red;  }
+
+.page-link{
+	color: #587b7f !important;
+}
+/* Estilo del icono EDITAR - LAPIZ */
+.fa-pencil{
+	color: #5ca87f !important;
+}
+.fa-pencil:hover{
+	color: #345543 !important;
+}
+/* Estilo del icono BORRAR   - PAPELERA */
+.fa-trash{
+	color: #5ca87f !important;
+}
+.fa-trash:hover{
+	color: #345543 !important;
+}
+/* FORMULARIO  - REGISTRO  */
+.registro-formulario{
+	margin-top: 10px !important;
+}
+/* ENLACES dentro del formulario color - VERDE */
+.form a{
+	color: #79c99e;
+}
+.form:hover a{
+	color: #dfcc74;
+}
+form button{
+	border-color: #79c99e !important;
+	color: #79c99e !important;
+}
+.btn:hover {
+	background-color: #47a772 !important;
+	color: white !important;
+}
+
+/* Estio de la confirmación de borrado */
+.btn a{
+	color: #414240;
+}
+.btn-borrar:hover {
+	background-color: #f03b3b !important;
+	color: white !important;
+}
+
+.btn-cancelar:hover{
+	background-color: #47a772 !important;
+	color: white !important;
+}
+
+/*FOOTER */
+.footer { 
+	position: relative;
+   	left: 0;
+	bottom: 0;
+   	width: 100%;
+   	color: black;
+   	text-align: center;
+}
+
+.footer a{
+	color: #79c99e;
+	font-weight: bold;
+}
+.footer:hover a{
+	color: #dfcc74;
+}
+#slider{
+	text-align: center;
+}
+
+
+/* Estilo de la paginación final */
+
+.page-item .active{
+	background-color: #93e4b9 !important;
+}
