@@ -153,20 +153,20 @@
                 <div class="form-group row ">
                     <label for="nombre" class="col-md-4 col-form-label">Nombre: </label>
                     <div class="col-md-8">
-                        <input type="text" class="form-control" name="nombre" placeholder="Nombre de la receta">
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre de la receta" required>
                     </div>
                     
                 </div>
                 <div class="form-group row">
                     <label class="col-md-4 col-form-label">Tiempo: </label>
                     <div class="col-md-8">
-                        <input type="time" class="form-control" name="tiempo" placeholder="Tiempo de elaboración">
+                        <input type="time" class="form-control" name="tiempo" placeholder="Tiempo de elaboración" required>
                     </div>   
                 </div>
                 <div class="form-group row">
                     <label class="col-md-4 col-form-label">Elaboración: </label>
                     <div class="col-md-8">
-                    <input type="text" class="form-control" name="descripcion" placeholder="Elaboración">
+                    <input type="text" class="form-control" name="descripcion" placeholder="Elaboración" required>
                     </div>  
                 </div>  
                 <button class="btn ">Anadir nueva receta</button>
@@ -181,20 +181,20 @@
                 <div class="form-group row ">
                     <label for="nombre" class="col-md-4 col-form-label">Nombre: </label>
                     <div class="col-md-8">
-                        <input type="text" class="form-control" name="nombre" placeholder="Nombre de la receta" value="<?php echo $resultado_unico['nombre']?>">
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre de la receta" value="<?php echo $resultado_unico['nombre']?>" required>
                     </div>
                     
                 </div>
                 <div class="form-group row">
                     <label class="col-md-4 col-form-label">Tiempo: </label>
                     <div class="col-md-8">
-                        <input type="time" class="form-control" name="tiempo" placeholder="Tiempo de elaboración" value="<?php echo $resultado_unico['tiempo']?>">
+                        <input type="time" class="form-control" name="tiempo" placeholder="Tiempo de elaboración" value="<?php echo $resultado_unico['tiempo']?>" required>
                     </div>   
                 </div>
                 <div class="form-group row">
                     <label class="col-md-4 col-form-label">Elaboración: </label>
                     <div class="col-md-8">
-                    <input type="text" class="form-control" name="descripcion" placeholder="Elaboración" value="<?php echo $resultado_unico['descripcion']?>">
+                    <input type="text" class="form-control" name="descripcion" placeholder="Elaboración" value="<?php echo $resultado_unico['descripcion']?>" required>
                     </div>  
                     <input type="hidden" class="d-none" name="id" value="<?php echo $resultado_unico['idReceta']?>">
                 </div>  
