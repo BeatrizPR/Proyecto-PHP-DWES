@@ -17,7 +17,7 @@
 	$peso = $_POST["peso"]??"" ;
 
 	// comprobación de que el usuario que se está registrando no existe ya
-	$sql_comprobarUsu ='SELECT * FROM usuarios WHERE usuario = ?';
+	$sql_comprobarUsu ='SELECT * FROM usuario WHERE usuario = ?';
 	$sentencia_comprobarUsu = $pdo->prepare($sql_comprobarUsu);
 	$sentencia_comprobarUsu->execute(array($usr));
 	$resultado_comprobacion = $sentencia_comprobarUsu->fetch();
